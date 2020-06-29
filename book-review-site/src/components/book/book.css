@@ -1,22 +1,32 @@
 .book-container {
     width: 300px;
     height: 400px;
-    background-color: cornflowerblue;
+    background-color: white;
     margin: 1rem;
     overflow: hidden;
     display: inline-block;
+    box-shadow: 3px 3px darkgray;
+    border: solid 2px;
 }
 
 .book-title {
     font-size: larger;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    padding-top: 2rem;
     padding-left: 1rem;
+    height: 100px;
+}
+
+.book-image {
+    max-height: 150px;
+    max-width: 280px;
+    object-fit: cover;
+    text-align: center;
+    padding-left: 30%;
 }
 
 .book-details {
-    font-size: large;
+    font-size: small;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 200;
     margin: 1rem;

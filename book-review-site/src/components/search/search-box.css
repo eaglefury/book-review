@@ -1,0 +1,24 @@
+.search-container {
+    border: solid black 2px;
+    display: block;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.search-box {
+    width: 600px;
+    display: inline-block;
+    border: black 2px s olid;
+    vertical-align: middle;
+}
+
+.search-button {
+    width: 200px;
+    margin-left: 20px;
+    background-color: deepskyblue;
+    color: black;
+    display: inline-block;
+    border: black 2px solid;
+    vertical-align: middle;
+
+}

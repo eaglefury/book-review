@@ -6,6 +6,7 @@ export const Book = (props) => {
   return (
     <div className='book-container'>
       <div className='book-title'> {book.title} </div>
+      <img className='book-image' src={book.imageUrl} alt='' />
       <div className='book-details'> {book.details} </div>
     </div>
   );
