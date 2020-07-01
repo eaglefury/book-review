@@ -1,11 +1,9 @@
-const bookReducer = (state = {}, action) => {
-    switch (action.type) {
-        case 'ADD':
-        default:
-            Array(state).push(action.payload);
-    }
-
-    return state;
-}
+const bookReducer = (state = [], action) => {
+  switch (action.type) {
+    case "ADD":
+    default:
+      return [...state, action.payload];
+  }
+};
 
 export default bookReducer;
