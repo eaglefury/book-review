@@ -1,8 +1,11 @@
-const bookReducer = (state = [], action) => {
+const bookReducer = (state = [],
+  action) => {
   switch (action.type) {
-    case "ADD":
+    case "ADD": {
+      return [action.payload, ...state]
+    }
     default:
-      return [...state, action.payload];
+      return state;
   }
 };
 
